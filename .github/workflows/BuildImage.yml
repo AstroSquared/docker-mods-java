@@ -6,7 +6,7 @@ env:
   GITHUB_REPO: "linuxserver/docker-mods" #don't modify
   ENDPOINT: "linuxserver/mods" #don't modify
   BASEIMAGE: "code-server" #replace
-  MODNAME: "java11" #replace
+  MODNAME: "java17" #replace
 
 jobs:
   set-vars:
