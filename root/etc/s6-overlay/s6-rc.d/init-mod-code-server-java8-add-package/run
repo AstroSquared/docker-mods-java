@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "**** Adding java8 packages to install list ****"
+echo "openjdk-8-jdk" >> /mod-repo-packages-to-install.list
