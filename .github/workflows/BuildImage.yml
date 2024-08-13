@@ -3,8 +3,8 @@ name: Build Image
 on: [push, pull_request_target, workflow_dispatch]
 
 env:
-  GITHUB_REPO: "AstroSquared/docker-mods-java" #don't modify
-  ENDPOINT: "AstroSquared/docker-mods-java" #don't modify
+  GITHUB_REPO: "astrosquared/docker-mods-java" #don't modify
+  ENDPOINT: "astrosquared/docker-mods-java" #don't modify
   BASEIMAGE: "code-server" #replace
   MODNAME: "java21" #replace
 
