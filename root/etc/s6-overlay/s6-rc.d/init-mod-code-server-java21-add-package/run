@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "**** Adding java21 packages to install list ****"
+echo "openjdk-21-jdk" >> /mod-repo-packages-to-install.list
